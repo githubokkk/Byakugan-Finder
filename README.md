@@ -1,51 +1,49 @@
-👁️ Byakugan Finder - Admin Panel Scanner
-"The Byakugan sees through all… even hidden admin panels!"
+# **👁️ Byakugan Finder - Admin Panel Scanner**  
+> **"The Byakugan sees through all… even hidden admin panels!"**  
 
+## **🌀 About**  
+Byakugan Finder is a **fast and efficient admin panel scanner** that helps penetration testers and ethical hackers discover **hidden admin login pages** on websites. It uses **multithreading** to speed up scanning and is inspired by the **Byakugan** ability from Naruto! 🌪️  
 
-🌀 About
-Byakugan Finder is a fast and efficient admin panel scanner that helps penetration testers and ethical hackers discover hidden admin login pages on websites. It uses multithreading to speed up scanning and is inspired by the Byakugan ability from Naruto! 🌪️
+### **⚡ Features**
+✔️ **Multithreading** for fast scanning  
+✔️ **Custom wordlists** for better accuracy  
+✔️ **Saves results** to a file automatically  
+✔️ **User-friendly and beginner-friendly**  
+✔️ **Works on Windows, Linux, and macOS**  
 
-⚡ Features
-✔️ Multithreading for fast scanning
-✔️ Custom wordlists for better accuracy
-✔️ Saves results to a file automatically
-✔️ User-friendly and beginner-friendly
-✔️ Works on Windows, Linux, and macOS
+---
 
-📥 Installation
-1️⃣ Clone the Repository
-
-sh
-Copy
-Edit
+## **📥 Installation**
+**1️⃣ Clone the Repository**
+```sh
 git clone https://github.com/Krupal1574/Byakugan-Finder.git
 cd Byakugan-Finder
-2️⃣ Install Dependencies
-
-sh
-Copy
-Edit
+```
+**2️⃣ Install Dependencies**
+```sh
 pip install -r requirements.txt
-🚀 Usage
-Basic Scan
-sh
-Copy
-Edit
+```
+
+---
+
+## **🚀 Usage**
+### **Basic Scan**
+```sh
 python byakugan_finder.py -u "https://example.com/"
-Using a Custom Wordlist
-sh
-Copy
-Edit
+```
+### **Using a Custom Wordlist**
+```sh
 python byakugan_finder.py -u "https://example.com/" -w "my_wordlist.txt"
-Save Results to a File
-sh
-Copy
-Edit
+```
+### **Save Results to a File**
+```sh
 python byakugan_finder.py -u "https://example.com/" -o "admin_results.txt"
-🎯 Example Output
-sh
-Copy
-Edit
+```
+
+---
+
+## **🎯 Example Output**
+```sh
 [*] Byakugan Activated... Scanning 500 paths!
 
 [+] Found: https://example.com/admin (Status: 200)
@@ -54,20 +52,29 @@ Edit
 [-] Not Found: https://example.com/cpanel (Status: 403)
 
 [+] Scan Complete! Results saved in found_panels.txt
-🔗 Wordlists for Better Results
-If you need stronger wordlists, check these out:
+```
 
-SecLists Admin Panels: 🔗 GitHub Link
+---
 
-FuzzDB Admin Paths: 🔗 GitHub Link
+## **🔗 Wordlists for Better Results**
+If you need **stronger wordlists**, check these out:  
+- **SecLists Admin Panels:** 🔗 [GitHub Link](https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content)  
+- **FuzzDB Admin Paths:** 🔗 [GitHub Link](https://github.com/fuzzdb-project/fuzzdb/tree/master/discovery/admin)  
 
-🛡️ Legal Disclaimer
-⚠️ Use this tool only for ethical hacking and security testing on websites you have permission to test.
-I am not responsible for any misuse or illegal activities using this script.
+---
 
-👤 Developer
-👨‍💻 Krupal Prajapati
-🔗 GitHub: @Krupal1574
+## **🛡️ Legal Disclaimer**
+**⚠️ Use this tool only for ethical hacking and security testing on websites you have permission to test.**  
+I am **not responsible** for any misuse or illegal activities using this script.  
 
-💙 If you found this tool useful, star the repo ⭐ and follow for more cool projects! 🚀
+---
 
+## **👤 Developer**
+👨‍💻 **Krupal Prajapati**  
+🔗 GitHub: [@Krupal1574](https://github.com/Krupal1574)  
+
+💙 If you found this tool useful, **star the repo** ⭐ and follow for more cool projects! 🚀  
+
+---
+
+🔥 **Happy Hacking!** 🌀
